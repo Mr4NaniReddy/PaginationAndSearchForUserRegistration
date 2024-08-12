@@ -1,0 +1,37 @@
+.custom-bg-color-1 {
+    background-color: #cf6d2c;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.custom-bg-color-2 {
+    background-color: #8a5510 !important; 
+    color: white !important; 
+}
+
+.page-link {
+    color: #000000 !important;
+    font-weight:500;
+   
+}
+
+
+.page-item.active .page-link {
+    background-color: #8a5510; 
+    border-color: #8a5510; 
+    color: #fff !important;
+}
+
+.page-item.disabled .page-link {
+    color: gray !important;
+
+}
+
+#pagination {
+    position: fixed; 
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%); 
+   
+}
+
